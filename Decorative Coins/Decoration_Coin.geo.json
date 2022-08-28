@@ -1,0 +1,55 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.decorative_coin",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "coin1",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-1, 0, -2], "size": [2, 2, 6], "uv": [11, 30]},
+						{"origin": [-3, 0, -2], "size": [2, 2, 6], "uv": [22, 0]},
+						{"origin": [-5, 0, -2], "size": [2, 2, 6], "uv": [22, 9]},
+						{"origin": [-7, 0, -2], "size": [2, 2, 6], "uv": [0, 27]},
+						{"origin": [-4, 0, 0], "size": [2, 2, 6], "pivot": [0, 0, 0], "rotation": [0, -90, 0], "uv": [22, 27]},
+						{"origin": [4, 0, 0], "size": [2, 2, 6], "pivot": [0, 0, 0], "rotation": [0, -90, 0], "uv": [22, 18]}
+					]
+				},
+				{
+					"name": "coin2",
+					"pivot": [0, 2, 6],
+					"rotation": [-25, 0, 0],
+					"cubes": [
+						{"origin": [-1, 2, 4], "size": [2, 2, 6], "uv": [11, 21]},
+						{"origin": [-3, 2, 4], "size": [2, 2, 6], "uv": [0, 18]},
+						{"origin": [-5, 2, 4], "size": [2, 2, 6], "uv": [11, 12]},
+						{"origin": [-7, 2, 4], "size": [2, 2, 6], "uv": [11, 3]},
+						{"origin": [-4, 2, 6], "size": [2, 2, 6], "pivot": [0, 2, 6], "rotation": [0, -90, 0], "uv": [0, 9]},
+						{"origin": [4, 2, 6], "size": [2, 2, 6], "pivot": [0, 2, 6], "rotation": [0, -90, 0], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "coin3",
+					"pivot": [-4, 1, -6],
+					"rotation": [22.5, 32.5, 0],
+					"cubes": [
+						{"origin": [-5, 1, -8], "size": [2, 2, 6], "uv": [11, 30]},
+						{"origin": [-7, 1, -8], "size": [2, 2, 6], "uv": [22, 0]},
+						{"origin": [-9, 1, -8], "size": [2, 2, 6], "uv": [22, 9]},
+						{"origin": [-11, 1, -8], "size": [2, 2, 6], "uv": [0, 27]},
+						{"origin": [-8, 1, -6], "size": [2, 2, 6], "pivot": [-4, 1, -6], "rotation": [0, -90, 0], "uv": [22, 27]},
+						{"origin": [0, 1, -6], "size": [2, 2, 6], "pivot": [-4, 1, -6], "rotation": [0, -90, 0], "uv": [22, 18]}
+					]
+				}
+			]
+		}
+	]
+}
